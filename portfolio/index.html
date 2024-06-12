@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="generel.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Forside</title>
+
+    <style>
+        h1 {
+            color: #BF754B;
+            font-weight: 400;
+        }
+
+        h3 {
+            text-align: right;
+            margin: 0px 60px;
+            color: #BF754B;
+        }
+
+        h5 {
+            text-align: right;
+            margin: 0px 70px;
+            color: #BF754B;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #BF754B;
+            max-width: 45ch;
+            margin-top: 300px;
+        }
+
+        @media (max-width: 800px) {
+            h1 {
+                font-size: 3.9rem;
+                margin: 50px 10px;
+
+            }
+
+            h3 {
+                font-size: 1.5rem;
+                margin: 10px 10px 10px 10px;
+            }
+
+            h5 {
+                font-size: 1rem;
+                margin: 0px 10px 10px 10px;
+            }
+
+            .grid_6_1styling {
+                padding: 10px 10px 0px 10px;
+            }
+
+            p {
+                font-size: 1rem;
+
+            }
+        }
+
+        @media (max-width: 400px) {
+            h1 {
+                font-size: 2.5rem;
+                margin: 50px 10px;
+
+            }
+
+            h3 {
+                font-size: 1.5rem;
+            }
+
+            h5 {
+                font-size: 1rem;
+            }
+
+            .grid_6_1styling {
+                padding: 10px 0px 10px 10px;
+            }
+
+            p {
+                font-size: 1rem;
+                margin-top: 300px;
+            }
+        }
+    </style>
+
+<body>
+    <header>
+
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                            viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="ssp.html">Grundlæggende web</a></li>
+                <li><a href="es.html">Grundlæggende UX/UI</a></li>
+                <li><a href="as.html">Grundlæggende animation</a></li>
+                <li><a href="vs.html">Grundlæggende indhold</a></li>
+                <li><a href="om.html">Om mig</a></li>
+            </ul>
+
+            <ul>
+                <li class="hideOnMobile"><a href="index.html">Forside</a></li>
+                <li class="hideOnMobile"><a href=" ssp.html">Grundlæggende web</a></li>
+                <li class="hideOnMobile"><a href=" es.html">Grundlæggende UX/UI</a></li>
+                <li class="hideOnMobile"><a href=" as.html">Grundlæggende animation</a></li>
+                <li class="hideOnMobile"><a href=" vs.html">Grundlæggende indhold</a></li>
+                <li class="hideOnMobile"><a href="om.html">Om mig</a></li>
+                <li class="menu-knap" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+            </ul>
+        </nav>
+        <script src="menu.js"></script>
+    </header>
+    <main>
+
+        <div class="container">
+
+            <div class="grid_6_1">
+                <div class="grid_6_1styling">
+
+                    <div>
+                        <h1> <i>Min</i> PORTFOLIO</h1>
+                    </div>
+                    <div>
+                        <div class="linje-tekst-container">
+                            <div class="vandret-linje"></div>
+                            <h3>
+                                Multimediedesign 1. semester
+                            </h3>
+                        </div>
+
+                        <h5><i>af</i> Melina Christine Pannach Thorsen</h5>
+
+                        <p> Velkommen til min portfolio over første semester af multimediedesigner uddannelsen, hvor du
+                            vil blive
+                            præsenteret for mine opgaver fra det seneste semester.</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>
